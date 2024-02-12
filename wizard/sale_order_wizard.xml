@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="sale_order_confrom_wizard_form_view">
+        <field name="name">sale.order.wizard.form.view</field>
+        <field name="model">sale.confrom.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="name" readonly='1'/>
+                <footer>
+                     <button name="sale_order_submit_button" string="confrom" type="object"
+                     class="oe_highlight"/>
+                    <button special="cancel" string="Cancel" class="btn-primary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="sale_order_confrom_wizard_action_window" model="ir.actions.act_window">
+        <field name="name">Sale</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">sale.confrom.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>
