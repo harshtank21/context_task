@@ -16,6 +16,8 @@ You could use this simplified accounting in case you work with an (external) acc
     'data': [
         'security/ir.model.access.csv',
         'views/res_partner_view.xml',
+        'views/sale_order.xml',
+        'data/ir_actions_server.xml',
         'wizard/sale_order_wizard.xml',
 
     ],

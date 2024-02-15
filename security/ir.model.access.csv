@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-context_task.access_sale_confrom_wizard,access_sale_confrom_wizard,context_task.model_sale_confrom_wizard,base.group_user,1,1,1,1
+context_practice.access_sale_confirm_wizard,access_sale_confirm_wizard,context_practice.model_sale_confirm_wizard,base.group_user,1,1,1,1
